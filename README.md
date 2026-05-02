@@ -150,25 +150,24 @@ Generation and evaluation (XML validity, SVG render rate, prefix completion) are
 
 | Model | Params | SP Val Loss | µP Val Loss |
 |-------|--------|-------------|-------------|
-| Tiny | 1.9M | 1.64 | 1.45 |
-| Small | 4.3M | 1.41 | 1.25 |
-| Medium | 7.0M | 2.00 | **1.23** |
-| Large | 17.5M | 4.58 | 3.96 |
-| XL | 91.6M | 4.97 | 4.74 |
+| Tiny   | 1.9M  | 1.639 | 1.454 |
+| Small  | 4.3M  | 1.418 | 1.240 |
+| Medium | 7.0M  | 1.314 | 1.669 |
+| Large  | 17.5M | 1.150 | 4.296 |
+| XL     | 91.6M | 4.512 | 4.768 |
 
-**Best model (µP Medium) evaluation:**
-- Test loss: 2.12 | Test perplexity: 8.31
+**Best model (µP Small, trained for 4 epochs) evaluation:**
+- Best val loss: 1.115 | Test loss: 1.140 | Test perplexity: 3.13
 - XML validity rate: 82.4%
-- SVG render rate: 82.4% (unconditional: 100%)
-
----
+- SVG render rate: 82.4% (unconditional: 100%, prefix: 40%)
+- Samples generated: 12 unconditional + 5 prefix-conditioned
 
 ## Hardware
 
-All experiments run on Google Colab with an NVIDIA G4 GPU (RTX PRO 6000, ~96 GB VRAM) with High-RAM enabled.
+All experiments run on Google Colab with an NVIDIA A100 GPU (High-RAM enabled).
 
 Approximate training times per epoch:
-- Tiny: ~2 min | Small: ~3 min | Medium: ~4 min | Large: ~8 min | XL: ~25 min
+- Tiny: ~2 min | Small: ~4 min | Medium: ~4 min | Large: ~9 min | XL: ~32 min
 
 ---
 
