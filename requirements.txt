@@ -1,0 +1,26 @@
+# Core ML
+torch>=2.0.0
+numpy>=1.24.0
+
+# Hugging Face
+datasets>=4.0.0
+tokenizers>=0.22.0
+
+# µP (Maximal Update Parameterization)
+mup>=1.0.0
+
+# SVG processing & validation
+lxml>=6.0.0
+cairosvg>=2.7.0
+
+# Data & utilities
+pandas>=2.0.0
+scipy>=1.10.0
+tqdm>=4.65.0
+
+# Visualization
+matplotlib>=3.7.0
+Pillow>=10.0.0
+
+# Standard library (included with Python, listed for reference)
+# re, json, pickle, os, glob, math, copy, csv, random, subprocess, pathlib
