@@ -1,0 +1,31 @@
+
+out_dir = 'out-svg-sp-tiny-lr-1e-2'
+
+eval_interval = 500
+eval_iters = 100
+log_interval = 50
+
+dataset = 'svg'
+vocab_size = 4096
+
+gradient_accumulation_steps = 4
+batch_size = 8
+block_size = 512
+
+n_layer = 4
+n_head = 4
+n_embd = 128
+dropout = 0.1
+
+learning_rate = 0.01
+max_iters = 6653
+lr_decay_iters = 6653
+min_lr = 0.001
+beta2 = 0.95
+warmup_iters = 100
+
+always_save_checkpoint = True
+wandb_log = False
+
+track_metrics = True
+metrics_log_file = 'metrics.csv'
