@@ -1,0 +1,18 @@
+{
+  "best_out_dir": "out-svg-mup-small-final",
+  "test_loss": 1.1403172144293785,
+  "test_perplexity": 3.127760378561077,
+  "num_unconditional_samples": 12,
+  "num_prefix_conditioned_samples": 5,
+  "temperatures_used": [
+    0.5,
+    0.8,
+    1.0
+  ],
+  "top_k": 50,
+  "xml_valid_rate": 0.8235294117647058,
+  "structural_validity_rate": 0.8235294117647058,
+  "render_rate": 0.8235294117647058,
+  "uncond_render_rate": 1.0,
+  "prefix_render_rate": 0.4
+}
