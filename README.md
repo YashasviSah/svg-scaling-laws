@@ -8,11 +8,11 @@ Exploring scaling laws for decoder-only Transformer language models trained on S
 
 ```
 .
-├── ML_Final project.ipynb   # Main notebook (all parts)
-├── nanoGPT/                         # Standard param training (Part 2)
-│   ├── train.py                     # Modified nanoGPT trainer (metrics logging added)
-│   ├── model.py                     # GPT model (unmodified)
-│   ├── data/svg/                    # Preprocessed data (not tracked in git)
+├── ML_Final project.ipynb   
+├── nanoGPT/                         
+│   ├── train.py            
+│   ├── model.py              
+│   ├── data/svg/                   
 │   └── config/
 │       ├── train_svg_sp_tiny.py
 │       ├── train_svg_sp_small.py
@@ -24,10 +24,10 @@ Exploring scaling laws for decoder-only Transformer language models trained on S
 │       ├── train_svg_sp_tiny_lr_1e-3.py
 │       ├── train_svg_sp_tiny_lr_3e-3.py
 │       └── train_svg_sp_tiny_lr_1e-2.py
-├── nanoGPT_mup/                     # µP training (Part 3 & 4)
-│   ├── train.py                     # Modified nanoGPT trainer (µP + metrics)
-│   ├── model.py                     # GPT model patched with mup.Linear + MuReadout
-│   ├── data/svg/                    # Preprocessed data (not tracked in git)
+├── nanoGPT_mup/                     
+│   ├── train.py                     
+│   ├── model.py                     
+│   ├── data/svg/                  
 │   └── config/
 │       ├── train_svg_mup_tiny_final.py
 │       ├── train_svg_mup_small_final.py
